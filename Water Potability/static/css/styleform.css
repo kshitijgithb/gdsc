@@ -1,0 +1,93 @@
+.f-container {
+      margin: 0 auto;
+      /* background-color: white; */
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      color: black;
+}
+
+.allinput {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
+
+/* Show three input groups per row on larger screens */
+.input-group {
+      width: 250px;
+      margin: 2rem 1rem 2rem;
+      /* Add margin to create gaps between input groups */
+}
+
+.label-f-container {
+      text-align: center;
+      /* Center-align the label above the input */
+}
+
+.labelf {
+      display: block;
+      /* Display the label as a block element */
+      font-size: 1rem;
+}
+
+input[type="text"] {
+      width: 100%;
+      padding: 0px 10px 10px;
+      border: none;
+      background-color: transparent;
+      border-bottom: 1px solid #ccc;
+      /* Add a bottom border */
+      border-radius: 0;
+      /* Remove border-radius to make the bottom border square */
+      transition: border-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+      /* Add transition for border-color and transform */
+}
+
+/* Remove the dark black border on input focus */
+input[type="text"]:focus {
+      outline: none;
+      border-bottom: 1px solid black;
+      /* Make the bottom border gray */
+}
+
+/* Label animation on input focus */
+input[type="text"]:focus+.label-f-container label {
+      top: 0;
+      /* Move label up on focus */
+      font-size: 1.5rem;
+      /* Adjust font size on focus */
+}
+
+button[type="submit"] {
+      background-color: #4caf50;
+      /* Green submit button */
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s ease-in-out;
+}
+
+
+input[type="submit"]:hover {
+      background-color: #45a049;
+}
+
+.submitf{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.our-process{
+      margin: 2rem 0 0;
+      padding: 2rem 0 2rem;
+}
+
+.imgdrink{
+      width: 200px;
+      height: 200px;
+}

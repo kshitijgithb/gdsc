@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags --> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Drinkability Analyzer</title>
+		<link rel="stylesheet" href="/static/vendors/mdi/css/materialdesignicons.min.css">
+		<link rel="stylesheet" href="/static/vendors/owl.carousel/css/owl.carousel.css">
+		<link rel="stylesheet" href="/static/vendors/owl.carousel/css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="/static/vendors/aos/css/aos.css">
+		<link rel="stylesheet" href="/static/vendors/jquery-flipster/css/jquery.flipster.css">
+		<link rel="stylesheet" href="/static/css/style.css">
+		<link rel="stylesheet" href="/static/css/styleform.css">
+		<link rel="shortcut icon" href="https://cdn3d.iconscout.com/3d/premium/thumb/green-earth-6855145-5625018.png?f=webp" />
+	</head>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<div id="mobile-menu-overlay"></div>
+		
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="/static/images/logo.jpg"
+					 alt="Logo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"><i class="mdi mdi-menu"> </i></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+					<div class="d-lg-none d-flex justify-content-between px-4 py-3 align-items-center">
+						<img src="/static/images/logo-dark.jpg" class="logo-mobile-menu" alt="logo">
+						<a href="javascript:;" class="close-menu"><i class="mdi mdi-close"></i></a>
+					</div>
+					<ul class="navbar-nav ml-auto align-items-center">
+						<li class="nav-item active">
+							<a class="nav-link" href="#home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#services">Data Analysis</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-active nactive" href="/">Water Prediction</a>
+						</li>
+				
+						
+						<li class="nav-item">
+							<a class="nav-link btn btn-success" href="http://wasteclassification-1.divyarani13.repl.co">Garbage classification</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="page-body-wrapper">
+      <section id="home" class="home" data-aos="fade-up" data-aos-offset="-400">
+				<div class="container">
+					<div class="row drink">
+						<div class="col-sm-12">
+							<div class="d-sm-flex justify-content-center align-items-center mb-2">
+								<h3 class="font-weight-medium text-dark ">Drinkability Analyzer</h3>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="main-banner">
+								<div class="f-container">
+									<form action= '/' method="post">
+										<div class="allinput">
+											<div class="input-group">
+												<label class="labelf" for="ph">pH:</label>
+												<input type="text" id="ph" name="ph" placeholder="(0-14)" />
+											</div>
+							
+											<div class="input-group">
+												<label class="labelf" for="hardness">Hardness:</label>
+												<input type="text" id="hardness" name="hardness" placeholder="mg/L" />
+											</div>
+							
+											<div class="input-group">
+												<label class="labelf" for="solids">Solids:</label>
+												<input type="text" id="solids" name="solids" placeholder="mg/L" />
+											</div>
+							
+											<div class="input-group">
+												<label class="labelf" for="chloramines">Chloramines:</label>
+												<input type="text" id="chloramines" name="chloramines" placeholder="mg/L" />
+											</div>
+							
+											<div class="input-group">
+												<label class="labelf" for="sulfate">Sulfate:</label>
+												<input type="text" id="sulfate" name="sulfate" placeholder="mg/L" />
+											</div>
+							
+											<div class="input-group">
+												<label class="labelf" for="conductivity">Conductivity:</label>
+												<input type="text" id="conductivity" name="conductivity" placeholder="µS/cm" />
+											</div>
+							
+											<div class="input-group">
+												<label class="labelf" for="organic-carbon">Organic Carbon:</label>
+												<input type="text" id="organic-carbon" name="organic-carbon" placeholder="mg/L" />
+											</div>
+							
+											<div class="input-group">
+												<label class="labelf" for="trihalomethanes">Trihalomethanes:</label>
+												<input type="text" id="trihalomethanes" name="trihalomethanes" placeholder="µg/L" />
+											</div>
+							
+											<div class="input-group">
+												<label class="labelf" for="turbidity">Turbidity:</label>
+												<input type="text" id="turbidity" name="turbidity" placeholder="NTU" />
+											</div>
+										</div>
+										<div class="submitf">
+											<button type="submit">Predict Portability</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+          				<div class="row aos-init aos-animate d-sm-flex justify-content-center align-items-center mb-2" data-aos="fade-up" data-aos-offset="-300">
+						<div class="col-sm-4">
+							<div class="pricing-box">
+								<h6 class="font-weight-medium title-text">{{pred}}</h6>
+								<img class="imgdrink" src={{val1}} alt="starter">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="our-process" id="about">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6" data-aos="fade-up">
+							<h5 class="text-dark">Clean water isn't just a resource</h5>
+							<h3 class="font-weight-medium text-dark">It's a lifeline to sustainable growth.</h3>
+							<h5 class="text-dark mb-3">Don't compromise on clean water.</h5>
+							<p class="font-weight-medium mb-4">Protect your business's bottom line <br> and the planet with water portability checks.
+							</p>
+							<div class="d-flex justify-content-start mb-3">
+								<img src="/static/images/tick.png" alt="tick" class="mr-3 tick-icon"  >
+								<p class="mb-0">Input precise water quality details.</p>
+							</div>
+							<div class="d-flex justify-content-start mb-3">
+								<img src="/static/images/tick.png" alt="tick" class="mr-3 tick-icon"  >
+								<p class="mb-0">Press the 'Predict Portability' button.</p>
+							</div>
+							<div class="d-flex justify-content-start">
+								<img src="/static/images/tick.png" alt="tick" class="mr-3 tick-icon"  >
+								<p class="mb-0">Receive instant drinkability assessment.</p>
+							</div>
+						</div>
+						<div class="col-sm-6 text-right" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+							<img src="https://torrentlab.com/wp-content/uploads/2017/03/istock-923038904.jpg" alt="idea" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			
+		</div>
+		<footer class="footer">
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="d-flex justify-content-between align-items-center">
+						<div class="d-flex align-items-center">
+							<img src="/static/images/logo.jpg" alt="logo" class="mr-3" style="background-color: white;"></br>
+							
+						</div>
+           
+						<div>
+							<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> © 2023 Copyright:
+								<a class="text-white" href="https://github.com/abhik813/Ecothon-EcoTech">Team Spam Bytes</a>
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+		<script src="/static/vendors/base/vendor.bundle.base.js"></script>
+		<script src="/static/vendors/owl.carousel/js/owl.carousel.js"></script>
+		<script src="/static/vendors/aos/js/aos.js"></script>
+		<script src="/static/vendors/jquery-flipster/js/jquery.flipster.min.js"></script>
+		<script src="/static/js/template.js"></script>
+	</body>
+</html>
