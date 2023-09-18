@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% block content %}
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <h2 class="font-weight-medium text-dark" style="margin-top: 8rem;">Waste Classifier</h2>
+    <p>Just give the image and get best class to Recycle it.</p>
+</div>
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+        <label for="imageUpload" class="upload-label">
+            Choose..
+        </label>
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+        <!-- <input type="file" name="file" id="imageUpload" accept="image/*, .png, .jpeg, .jpg" capture="environment"> -->
+    </form>
+    
+    <div class="image-section" style="display:none;">
+        <div class="img-preview">
+            <div id="imagePreview">
+            </div>
+        </div>
+        <div>
+            <button type="button" class="btn btn-success btn-lg " id="btn-predict">Predict!</button>
+        </div>
+    </div>
+
+    <div class="loader" style="display:none;"></div>
+
+    <h3 id="result">
+        <span> </span>
+    </h3>
+
+</div>
+
+{% endblock %}

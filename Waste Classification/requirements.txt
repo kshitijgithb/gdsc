@@ -1,0 +1,7 @@
+flask
+numpy
+tensorflow
+keras
+gevent
+werkzeug
+pillow
