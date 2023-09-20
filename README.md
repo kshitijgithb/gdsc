@@ -45,15 +45,15 @@ Due to the extensive technology used in our website, hosting it on a single free
 
 1. **Waste Classification and Water Prediction Pages:**
    - Hosted on Replit for efficient prediction-based functionalities.
-   - Link: [Link](https://replit.com/)
+   - Link: [Replit](https://replit.com/)
 
 2. **Home Page:**
    - Hosted on Render.com, offering a user-friendly landing page with dynamic animations.
-   - Link: [Home Page](https://render.com/)
+   - Link: [Render](https://render.com/)
 
 3. **Data Analysis:**
    - Hosted on Streamlit Community Cloud, providing comprehensive insights into air quality.
-   - Link: [Data Analysis](https://streamlit.io/)
+   - Link: [Streamlit Community CLoud](https://streamlit.io/)
 
 This distributed hosting approach ensures that users can access our website seamlessly while benefiting from its diverse functionalities across different segments.
 
