@@ -1,4 +1,4 @@
-# Ecothon-EcoTech
+# Ecothon-EcoTech(Team Spam Bytes)
 
 1. # Home Page:
    - A simple yet engaging page with dynamic animations that provide an overview of the website's services.
@@ -17,12 +17,15 @@
      - Listings of countries and their AQI categories.
      - An interactive geo-graph showcasing countries and their respective AQI values.
    - Technologies Used: Streamlit, Pandas, NumPy, Seaborn, Matplotlib, Missingno, Plotly.
+   - Dataset used: https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india
+                   https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset
 
 3. **Waste Classification:**
    - Designed to raise awareness about resource conservation, focusing on the "3 Rs": Reduce, Reuse, and Recycle.
    - A waste classification model allows users to click a photo, predict the waste type, and provides interesting facts/videos on decomposition or waste-based businesses.
    - Encourages effective waste classification and contributes to climate change mitigation.
    - Technologies Used: Flask, Deep Learning (CNN, VGG16 Model, ANN), Keras, TensorFlow.
+   - Dataset Used: https://www.kaggle.com/datasets/mostafaabla/garbage-classification
 
 4. **Water Prediction:**
    - Utilizes a Kaggle dataset with input features like pH, hardness, and turbidity to determine water drinkability.
@@ -31,5 +34,6 @@
    - Follows a machine learning pipeline, including data preprocessing, scaling, normalization, and model training (e.g., logistic regression, random forest, XGBoost).
    - Implements a voting classifier for final predictions.
    - Technologies Used: Flask, Machine Learning (Logistic Regression, Random Forest, XGBoost).
+   - Dataset Used: 
 
 Our website serves as an informative and interactive platform to increase environmental awareness, offering valuable insights into air quality, waste management, and water safety. The combination of engaging visualizations and user-friendly tools empowers individuals and organizations to make informed decisions and contribute to a more sustainable future.
