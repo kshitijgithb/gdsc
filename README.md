@@ -1,6 +1,6 @@
 # Ecothon-EcoTech(Team Spam Bytes)
 
-1. # Home Page:
+1. **Home Page:**
    - A simple yet engaging page with dynamic animations that provide an overview of the website's services.
    - Technologies Used: HTML, CSS, JavaScript.
 
@@ -34,6 +34,25 @@
    - Follows a machine learning pipeline, including data preprocessing, scaling, normalization, and model training (e.g., logistic regression, random forest, XGBoost).
    - Implements a voting classifier for final predictions.
    - Technologies Used: Flask, Machine Learning (Logistic Regression, Random Forest, XGBoost).
-   - Dataset Used: 
+   - Dataset Used: https://www.kaggle.com/datasets/adityakadiwal/water-potability
 
 Our website serves as an informative and interactive platform to increase environmental awareness, offering valuable insights into air quality, waste management, and water safety. The combination of engaging visualizations and user-friendly tools empowers individuals and organizations to make informed decisions and contribute to a more sustainable future.
+
+## Online Hosting
+**Online Hosting:**
+
+Due to the extensive technology used in our website, hosting it on a single free platform posed challenges. Therefore, we adopted a segmented approach and hosted different sections on various platforms to ensure optimal performance and accessibility:
+
+1. **Waste Classification and Water Prediction Pages:**
+   - Hosted on Replit for efficient prediction-based functionalities.
+   - [Link](https://replit.com/)
+
+2. **Home Page:**
+   - Hosted on Render.com, offering a user-friendly landing page with dynamic animations.
+   - Link: [Home Page](https://render.com/)
+
+3. **Data Analysis:**
+   - Hosted on Streamlit Community Cloud, providing comprehensive insights into air quality.
+   - Link: [Data Analysis](https://streamlit.io/)
+
+This distributed hosting approach ensures that users can access our website seamlessly while benefiting from its diverse functionalities across different segments.
