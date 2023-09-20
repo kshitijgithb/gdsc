@@ -38,14 +38,14 @@
 
 Our website serves as an informative and interactive platform to increase environmental awareness, offering valuable insights into air quality, waste management, and water safety. The combination of engaging visualizations and user-friendly tools empowers individuals and organizations to make informed decisions and contribute to a more sustainable future.
 
-## Online Hosting
-**Online Hosting:**
+# Online Hosting
+
 
 Due to the extensive technology used in our website, hosting it on a single free platform posed challenges. Therefore, we adopted a segmented approach and hosted different sections on various platforms to ensure optimal performance and accessibility:
 
 1. **Waste Classification and Water Prediction Pages:**
    - Hosted on Replit for efficient prediction-based functionalities.
-   - [Link](https://replit.com/)
+   - Link: [Link](https://replit.com/)
 
 2. **Home Page:**
    - Hosted on Render.com, offering a user-friendly landing page with dynamic animations.
@@ -56,3 +56,7 @@ Due to the extensive technology used in our website, hosting it on a single free
    - Link: [Data Analysis](https://streamlit.io/)
 
 This distributed hosting approach ensures that users can access our website seamlessly while benefiting from its diverse functionalities across different segments.
+
+**Check Out our Web Application** - [Ecosense360](https://ecosense360-home.onrender.com/)
+
+![Alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmjF9Z-Ylbz8DdpjAe2oI3R3sONeUcrfOSBQ&usqp=CAU)
