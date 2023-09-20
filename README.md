@@ -57,6 +57,6 @@ Due to the extensive technology used in our website, hosting it on a single free
 
 This distributed hosting approach ensures that users can access our website seamlessly while benefiting from its diverse functionalities across different segments.
 
-**Check Out our Web Application** - [Ecosense360](https://ecosense360-home.onrender.com/)
+**Check Out our Web Application** - https://ecosense360-home.onrender.com/
 
 ![Alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmjF9Z-Ylbz8DdpjAe2oI3R3sONeUcrfOSBQ&usqp=CAU)
